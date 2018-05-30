@@ -1,6 +1,6 @@
 {% set name = "vaex-jupyter" %}
-{% set version = "0.2.0" %}
-{% set sha256 = "c878797ea166adcd001ec41b2898fe8648c522d62cbd93c319ef5987c8e63ac2" %}
+{% set version = "0.2.1" %}
+{% set sha256 = "c0e982a791744b8bd6fa11a7aa33ae31251281663aaa34ff05b9aad87dd17ebc" %}
 
 package:
   name: {{ name|lower }}
@@ -14,12 +14,13 @@ source:
 build:
   number: 0
   noarch: python
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
     - setuptools
+    - pip
   run:
     - python
     - vaex-core
