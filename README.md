@@ -14,12 +14,15 @@ Summary: Jupyter notebook and Jupyter lab support for vaex
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/vaex-jupyter-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/vaex-jupyter-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/vaex-jupyter-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/vaex-jupyter-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/vaex-jupyter/badges/version.svg)](https://anaconda.org/conda-forge/vaex-jupyter)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/vaex-jupyter/badges/downloads.svg)](https://anaconda.org/conda-forge/vaex-jupyter)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-vaex--jupyter-green.svg)](https://anaconda.org/conda-forge/vaex-jupyter) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/vaex-jupyter.svg)](https://anaconda.org/conda-forge/vaex-jupyter) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/vaex-jupyter.svg)](https://anaconda.org/conda-forge/vaex-jupyter) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/vaex-jupyter.svg)](https://anaconda.org/conda-forge/vaex-jupyter) |
 
 Installing vaex-jupyter
 =======================
