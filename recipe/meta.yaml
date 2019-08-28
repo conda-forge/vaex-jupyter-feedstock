@@ -29,6 +29,7 @@ requirements:
     - ipyvolume >=0.4
     - ipyleaflet
     - ipympl
+    - ipyvuetify
 
 test:
   imports:
