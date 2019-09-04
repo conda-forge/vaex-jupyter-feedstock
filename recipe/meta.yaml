@@ -1,6 +1,6 @@
 {% set name = "vaex-jupyter" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "a1648488cdcc7e3e896cba5c74d63680b1bdf15521b8824ad4ed8c4c75474288" %}
+{% set version = "0.3.2" %}
+{% set sha256 = "4df1a7904bae24f3ea96e5edd8493ecece6f3eea7db6d988f16309bddeff18e6" %}
 
 package:
   name: {{ name|lower }}
@@ -18,17 +18,18 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - setuptools
     - pip
   run:
     - python
-    - vaex-core >=0.6
+    - vaex-core >=1.0.0,<2
     - vaex-viz
     - bqplot >=0.10.1
     - ipyvolume >=0.4
     - ipyleaflet
     - ipympl
+    - ipyvuetify
 
 test:
   imports:
