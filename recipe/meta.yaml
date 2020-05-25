@@ -23,13 +23,13 @@ requirements:
     - pip
   run:
     - python
-    - vaex-core >=1.0.0,<2
+    - vaex-core >=2.0.0,<3
     - vaex-viz
-    - bqplot >=0.10.1
+    - bqplot >=0.12.0
     - ipyvolume >=0.4
     - ipyleaflet
     - ipympl
-    - ipyvuetify
+    - ipyvuetify >=1.2.2,<2
 
 test:
   imports:
