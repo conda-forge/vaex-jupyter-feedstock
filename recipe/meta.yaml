@@ -1,6 +1,6 @@
 {% set name = "vaex-jupyter" %}
-{% set version = "0.5.0" %}
-{% set sha256 = "90e61cb541ec1a60bfdd25e5234c9c3d237efd7a9ce061dbb978b038c340d67a" %}
+{% set version = "0.5.1.post0" %}
+{% set sha256 = "57aa0d317e449decf8d6a4e7903578ac2de4dfd71c9fc27e30f2ccebd92a57fd" %}
 
 package:
   name: {{ name|lower }}
@@ -30,6 +30,7 @@ requirements:
     - ipyleaflet
     - ipympl
     - ipyvuetify >=1.2.2,<2
+    - xarray
 
 test:
   imports:
