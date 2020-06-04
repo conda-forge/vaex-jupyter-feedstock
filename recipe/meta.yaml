@@ -30,6 +30,7 @@ requirements:
     - ipyleaflet
     - ipympl
     - ipyvuetify >=1.2.2,<2
+    - xarray
 
 test:
   imports:
