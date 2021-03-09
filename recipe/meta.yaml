@@ -1,6 +1,6 @@
 {% set name = "vaex-jupyter" %}
-{% set version = "0.5.2" %}
-{% set sha256 = "173ab0dedfdec0185401ad27af59200ffe67894474488b7923412054d0b9b25c" %}
+{% set version = "0.6.0" %}
+{% set sha256 = "6046d3983d001e1979b174b4d1e8adf97e3cd14e503aafc630b87c6c2e997d6a" %}
 
 package:
   name: {{ name|lower }}
@@ -22,8 +22,8 @@ requirements:
     - setuptools
     - pip
   run:
-    - python
-    - vaex-core >=2.0.0,<3
+    - python >=3.6
+    - vaex-core >=4.0.0,<5
     - vaex-viz
     - bqplot >=0.12.0
     - ipyvolume >=0.4
