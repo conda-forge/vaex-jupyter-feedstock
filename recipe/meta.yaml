@@ -1,6 +1,6 @@
 {% set name = "vaex-jupyter" %}
-{% set version = "0.6.0" %}
-{% set sha256 = "6046d3983d001e1979b174b4d1e8adf97e3cd14e503aafc630b87c6c2e997d6a" %}
+{% set version = "0.7.0" %}
+{% set sha256 = "6c479558e98002cd5a8fdcadba54d563d311a2d1e221870423d14ff86873289e" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python >=3.6
     - setuptools
     - pip
