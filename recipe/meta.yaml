@@ -1,6 +1,6 @@
 {% set name = "vaex-jupyter" %}
-{% set version = "0.8.1" %}
-{% set sha256 = "8fe9fd5a8bc0955ca899da9160c5bac3d24f07d2922514b40d1819237d3026e4" %}
+{% set version = "0.8.2" %}
+{% set sha256 = "0cf28ea625f39abb5e2cb095e421a538789d62b27400629477d47a2585034964" %}
 
 package:
   name: {{ name|lower }}

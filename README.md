@@ -1,11 +1,11 @@
-About vaex-jupyter
-==================
+About vaex-jupyter-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/vaex-jupyter-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.github.com/maartenbreddels/vaex
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/vaex-jupyter-feedstock/blob/main/LICENSE.txt)
 
 Summary: Jupyter notebook and Jupyter lab support for vaex
 
@@ -145,5 +145,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@JovanVeljanoski](https://github.com/JovanVeljanoski/)
 * [@maartenbreddels](https://github.com/maartenbreddels/)
 
