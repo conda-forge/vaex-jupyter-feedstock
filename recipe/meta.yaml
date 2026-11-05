@@ -1,6 +1,6 @@
 {% set name = "vaex-jupyter" %}
-{% set version = "0.9.0" %}
-{% set sha256 = "384603ef3ebd03846f285b2bb8b8098a72182bba7645f10fec6d1ad067ef14a9" %}
+{% set version = "0.9.1" %}
+{% set sha256 = "fc998c6d7bb0532a74d3989140cecc6f798dcc843529d8ddafa2f8f0386f642b" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
